@@ -1,0 +1,9 @@
+.footer-app{
+  background-color: $color-footer;
+  display: flex;
+  justify-content: center;
+
+  small {
+    color: black;
+  }
+}
