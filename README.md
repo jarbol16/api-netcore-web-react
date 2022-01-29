@@ -8,3 +8,12 @@ Diagrama de Arquitectura simple de la integración de los components.
 Se agrega un modelo entida relación simple
 
 ![EntidadRelacionSimple](https://user-images.githubusercontent.com/8837829/151652079-72481482-046c-48e4-8de3-8f14dce2504e.png)
+
+
+Api Realizada en .Net Core (.Net 5) expuesta con Swagger
+
+![Api](https://user-images.githubusercontent.com/8837829/151666239-d11c9ef0-dc6e-49e8-bfe9-3a10df2c02e8.PNG)
+
+Aplicacion Web Simple, con React Js
+
+![Web](https://user-images.githubusercontent.com/8837829/151666252-f2ed441f-f688-4cc8-a4fc-0b8b1a22b474.PNG)
