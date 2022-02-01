@@ -15,12 +15,12 @@ namespace BusinessRules
 
         public List<Rol> GetProfiles()
         {
-            return this.repository.GetProfiles();
+            return this.repository.GetList<Rol>();
         }
 
         public List<Permiso> GetPermisions()
         {
-            return this.repository.GetPermisions();
+            return this.repository.GetList<Permiso>();
         }
     }
 }

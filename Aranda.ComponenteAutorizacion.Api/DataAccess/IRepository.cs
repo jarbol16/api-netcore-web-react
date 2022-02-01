@@ -9,10 +9,9 @@ namespace DataAccess
     {
         Usuario GetUser(string userName, string pass);
         Persona GetPerson(int id);
-        List<Permiso> GetPermisions();
-        List<Rol> GetProfiles();
-        List<Persona> GetPersons();
-        List<Usuario> GetUsers();
         List<string> GetPermisionsByRol(int rolId);
+
+        List<Usuario> GetList();
+        List<T> GetList<T>() where T : class, new();
     }
 }

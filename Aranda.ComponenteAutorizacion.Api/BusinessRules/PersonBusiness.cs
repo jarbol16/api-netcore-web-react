@@ -14,7 +14,7 @@
 
         public List<Persona> GetPersons(string userName)
         {
-            return this.repository.GetPersons();
+            return this.repository.GetList<Persona>();
         }
     }
 }

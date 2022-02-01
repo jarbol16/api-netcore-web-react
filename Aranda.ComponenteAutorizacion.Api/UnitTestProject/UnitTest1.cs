@@ -46,7 +46,7 @@ namespace UnitTestProject
 
 
             var service = new Repository(mockDbContext.Object);
-            var response = service.GetUsers();
+            var response = service.GetList();
 
             Assert.AreEqual(users.Count, response.Count);
         }

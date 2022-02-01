@@ -17,7 +17,7 @@ namespace DataAccess
         /// Obtencion de Listas
         /// </summary>
         /// <returns></returns>
-        public IEnumerable<Usuario> GetList()
+        public List<Usuario> GetList()
         {
             return this.context.Usuarios.ToList();
         }
@@ -63,32 +63,17 @@ namespace DataAccess
             return context.PermisosPorRols.Where(x => x.Rol.Id == user.Rol.Id).ToList();
         }
 
-        public List<Usuario> GetUsers()
-        {
-            return context.Usuarios.ToList();
-        }
-
-        public List<Persona> GetPersons()
-        {
-            return context.Personas.ToList();
-        }
-
-        public List<Rol> GetProfiles()
-        {
-            return context.Rols.ToList();
-        }
-
-        public List<Permiso> GetPermisions()
-        {
-            return context.Permisos.ToList();
-        }
-
         public List<string> GetPermisionsByRol(int rolId)
         {
             return (from per in context.PermisosPorRols
                         join permiso in context.Permisos on per.PermisoId equals permiso.Id
                         select permiso.Nombre ).ToList();
 
+        }
+
+        public List<T> GetList<T>() where T: class, new()
+        {
+            return context.Set<T>().ToList();
         }
     }
 }

@@ -25,7 +25,7 @@ namespace BusinessRules
 
         public List<Usuario> GetUsers(string userName)
         {
-            return this.repository.GetUsers();
+            return this.repository.GetList<Usuario>();
         }
     }
 }
