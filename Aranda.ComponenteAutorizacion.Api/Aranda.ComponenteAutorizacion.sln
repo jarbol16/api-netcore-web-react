@@ -3,23 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aranda.ComponenteAutorizacion.Api", "Aranda.ComponenteAutorizacion.Api\Aranda.ComponenteAutorizacion.Api.csproj", "{A2AA4ED2-2BAA-46FD-B557-8CA32DD178D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aranda.ComponenteAutorizacion.Api", "Aranda.ComponenteAutorizacion.Api\Aranda.ComponenteAutorizacion.Api.csproj", "{A2AA4ED2-2BAA-46FD-B557-8CA32DD178D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{D13F62B1-D96E-4585-8C3B-20E0322AFE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{D13F62B1-D96E-4585-8C3B-20E0322AFE01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{787F3DA8-6B99-4752-B679-EE3852CE772E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utilities", "Utilities\Utilities.csproj", "{B0C0427A-1BFE-4575-BEB2-ABB6D6CE8890}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{B0C0427A-1BFE-4575-BEB2-ABB6D6CE8890}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{85EC6099-1C56-4AC4-BD34-EE09B15DD70F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business", "Business", "{26E93F68-F5CC-4F65-94E4-9C8322E1118F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRules", "BusinessRules\BusinessRules.csproj", "{A6A333F6-F913-41A5-A468-65A346A3FD65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessRules", "BusinessRules\BusinessRules.csproj", "{A6A333F6-F913-41A5-A468-65A346A3FD65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D36D1ED9-0C74-4E3F-A29C-373B1D2FB12F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6BDDC8C8-924A-4B62-A152-236E09B84E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\DataAccess.csproj", "{6BDDC8C8-924A-4B62-A152-236E09B84E24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{2FD053EA-8BC6-431B-BD96-09DF42218B83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject", "UnitTestProject\UnitTestProject.csproj", "{9898CCD1-0754-483D-86D5-8A3EBA86C2C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{6BDDC8C8-924A-4B62-A152-236E09B84E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BDDC8C8-924A-4B62-A152-236E09B84E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BDDC8C8-924A-4B62-A152-236E09B84E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9898CCD1-0754-483D-86D5-8A3EBA86C2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9898CCD1-0754-483D-86D5-8A3EBA86C2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9898CCD1-0754-483D-86D5-8A3EBA86C2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9898CCD1-0754-483D-86D5-8A3EBA86C2C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +65,7 @@ Global
 		{B0C0427A-1BFE-4575-BEB2-ABB6D6CE8890} = {787F3DA8-6B99-4752-B679-EE3852CE772E}
 		{A6A333F6-F913-41A5-A468-65A346A3FD65} = {26E93F68-F5CC-4F65-94E4-9C8322E1118F}
 		{6BDDC8C8-924A-4B62-A152-236E09B84E24} = {D36D1ED9-0C74-4E3F-A29C-373B1D2FB12F}
+		{9898CCD1-0754-483D-86D5-8A3EBA86C2C6} = {2FD053EA-8BC6-431B-BD96-09DF42218B83}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AAEE01D2-7A0F-4A3E-B742-4D9463509372}
